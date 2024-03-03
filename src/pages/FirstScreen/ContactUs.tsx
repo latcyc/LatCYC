@@ -68,7 +68,7 @@ export const ContactUs = () => {
                 },
             ).finally(() => {
                 // openNotification("If your code is valid, an email containing your booking QR code will be dispatched to your inbox. Thank you for your cooperation!")
-                openNotification("If your code is valid, an email containing a sucess message will be dispatched to your inbox. Thank you for your cooperation!")
+                openNotification("If your code is valid, an email containing a sucess message will be dispatched to your inbox. Thank you!")
                 setIsSubmitting(false)
             });
     };
@@ -86,7 +86,7 @@ export const ContactUs = () => {
                         name='user_name'
                         id="user_name"
                         type="text"
-                        placeholder=""
+                        placeholder="-----"
                         shadow />
                 </div>
 
